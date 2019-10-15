@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../assets/images/logostu.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/defoult_them.css">
+  <link rel="stylesheet" href="../css/preloader.css">
+  <title>MyDiary|NewEntry</title>
+</head>
+<body>
+  <!-- Preloader Start -->
+		
+	<div id="loader" class="preloader hidden  preloader-show">
+      <img src="../assets/images/mypreloader.gif" alt="loading.../" >
+    </div> 
+  
+    <!-- Preloader End -->
+
+  <div class="all-body-content">
+
+   <!-- navigation part start   -->
+
+   <div  class="left-dir " id="navigation">
+      <div class="profile">
+        <a href="home.html"><button class="app-btn"><span class="journal-font"><b><strong>MyDiary</strong></b></span><br><span class="logg"></span></button></a>
+      </div>
+      <div class="profile">
+          <button class="journal-btn" onclick="LoggOut()"><span class="journal-font"><b><strong>BYIRINGIRO's Journal</strong></b></span><br><span class="logg">Logged in</span></button>
+        </div>>
+      <div class="logout-div hide" id="out"> 
+        <button class="logout"><span class="journal-font"><span class="logout-text">Logout(BYIRINGIRO Yves)</button> 
+      </div> 
+      <div class="seach-entries-div">
+           <img src="../assets/images/icons/searc.png" alt="" class="icon-search"><input type="text" class="search-input" placeholder="search journal..."/>
+      </div> 
+      <div class="add-entries-div">
+        <a href="NewEntry.html"></a><button class="add-btn"><img src="../assets/images/icons/add.png" alt="" class="icon-add"> <span class="add-text">New Entry</span> </button></a>
+      </div> 
+      <div class="Entry-list-div">
+        <a href="EntryList.html"><button class="list-btn"><img src="../assets/images/icons/list3.png" alt="" class="icon-list"> <span class="list-text">View all Entries</span> </button></a>
+      </div> 
+      <div class="notification-div">
+        <a href="notification.html"><button class="notif-btn"><img src="../assets/images/icons/notification.png" alt="" class="not-img"><span class="notif-text">  Notifications</span> <span class="not-num"><b><strong>10</strong></b></span></button></a>
+      </div>
+    </div>
+
+    <!-- Navigation part End  -->
+
+    <!-- Home part start  -->
+
+    <div class="right-dir "> 
+
+      <!-- Heme header start   -->
+   
+      <div class="head">
+        <div class="logo-name-div">
+          <div class="menu-icon in-top">
+            <img class="icon-menu menu-btn" onclick="OpenNav()" src="../assets/images/icons/icon_menu.png"/>
+          </div>
+          <div class="menu-icon2 in-top">
+            <a href="home.html"><img class="icon-menu1 menu-btn" onclick="OpenNav()" src="../assets/images/icons/home3.png"/></a>
+          </div>
+          <div class="icon-div">
+            <img class="icon-logo" src="../assets/images/logostu.png"/>
+          </div>
+          <div class="name-div">
+            <span class="home-web-name"><b><strong>MyDiary</strong></b></span>
+         </div>  
+        </div> 
+      </div>
+
+      <!-- home header end -->
+      
+      <div class="content-header">
+       <span><b><strong class="big-title">New Entry</strong></b></span>
+      </div>
+      <!-- Home content start -->
+        <div class="input">
+          <textarea name="" id="" cols="170" rows="1" class="textarea" placeholder="Pen down here your story title"></textarea>
+          <textarea name="" id="" cols="170" rows="25" class="textarea" placeholder="Pen down here your story description"></textarea>
+        </div>
+        <div class="buttons">
+          <button class="save-btn"><b>Save</b></button> <button class="cancel-btn"><b>Cancel</b></button>
+        </div>
+      </div>
+     
+
+  </div> 
+ 
+  <script type="text/javascript" src="../js/control.js"></script>
+  <script type="text/javascript" src="../js/preloader.js"></script>
+</body>
+</html>

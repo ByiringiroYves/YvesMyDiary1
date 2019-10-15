@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/defoult_them.css">
+  <title>MyDiary|Home</title>
+</head>
+<body>
+  <!-- preloader start -->
+
+  <div id="loader" class="preloader hidden  preloader-show">
+      <img src="../assets/images/mypreloader.gif" alt="loading.../" >
+    </div>
+
+  <!-- preloader End -->
+  
+  <div class="all-body-content">
+
+   <!-- navigation part start   -->
+
+   <div  class="left-dir " id="navigation">
+      <div class="profile">
+          <a href="NewEntry.html"><button class="app-btn"><span class="journal-font"><b><strong>MyDiary</strong></b></span><br><span class="logg"></span></button></a>
+        </div>
+      <div class="profile">
+        <button class="journal-btn" onclick="LoggOut()"><span class="journal-font"><b><strong>BYIRINGIRO's Journal</strong></b></span><br><span class="logg">Logged in</span></button>
+      </div>
+      <div class="logout-div hide" id="out"> 
+        <button class="logout"><span class="journal-font"><span class="logout-text">Logout(BYIRINGIRO Yves)</button> 
+      </div> 
+      <div class="seach-entries-div">
+           <img src="../assets/images/icons/searc.png" alt="" class="icon-search"><input type="text" class="search-input" placeholder="search journal..."/>
+      </div> 
+      <div class="add-entries-div">
+          <a href="NewEntry.html"><button class="add-btn"><img src="../assets/images/icons/add.png" alt="" class="icon-add"> <span class="add-text">New Entry</span> </button></a>
+      </div> 
+      <div class="Entry-list-div">
+        <a href="EntryList.html"><button class="list-btn"><img src="../assets/images/icons/add.png" alt="" class="icon-list"> <span class="list-text">View all Entries</span> </button></a>
+      </div> 
+      <div class="notification-div">
+       <a href="notification.html"><button class="notif-btn"><img src="../assets/images/icons/notification.png" alt="" class="not-img"><span class="notif-text">  Notifications</span> <span class="not-num"><b><strong>10</strong></b></span></button></a>
+      </div>
+    </div>
+
+    <!-- Navigation part End  -->
+
+    <!-- Home part start  -->
+
+    <div class="right-dir "> 
+
+      <!-- Heme header start   -->
+   
+      <div class="head">
+        <div class="logo-name-div">
+            <div class="menu-icon in-top">
+              <img class="icon-menu menu-btn" onclick="OpenNav()" src="../assets/images/icons/icon_menu.png"/>
+            </div>
+            <div class="menu-icon2 in-top">
+              <a href="home.html"><img class="icon-menu1 menu-btn" onclick="OpenNav()" src="../assets/images/icons/home3.png"/></a>
+            </div>
+            <div class="icon-div">
+              <img class="icon-logo" src="../assets/images/logostu.png"/>
+            </div>
+            <div class="name-div">
+              <span class="home-web-name"><b><strong>MyDiary</strong></b></span>
+            </div>  
+          </div> 
+      </div>
+
+      <!-- home header end -->
+      <div class="topdiv">
+
+      </div>
+      
+      <div class="content-header">
+       <span><b><strong class="big-title">Entries List</strong></b> <span class="small-title">all created Entries</span></span>
+      </div>
+      <!-- Home content start -->
+      <div class="content-body">
+        <table  class="content-table">
+          <thead>
+            <tr>
+              <td>
+                
+              </td>
+              <td>
+                Date Ceated
+              </td>
+              <td>
+                Title
+              </td>
+              <td>
+                Description
+              </td>
+              <td>
+                  
+              </td>
+
+            </tr>  
+          </thead>
+          <tbody>
+              <tr class="tr">
+                  <td class="title1">
+                    <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                  </td>
+                  <td class="title">
+                    <strong>October 9,2019</strong><br>
+                  </td>
+                  <td class="title">
+                    <strong>My Entire life</strong>
+                  </td>
+                  <td class="description">
+                      in my life when i was child i was highly affected by ambitions.
+                  </td>
+                  <td class="del">
+                    <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                  </td>
+                </tr>
+                <tr class="tr">
+                 <td class="title1">
+                    <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                    </td>
+                    <td class="title">
+                      <strong>October 9,2019</strong><br>
+                    </td>
+                    <td class="title">
+                      <strong>My Entire life</strong>
+                    </td>
+                    <td class="description">
+                        in my life when i was child i was highly affected by ambitions.
+                    </td>
+                    <td class="del">
+                      <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                    </td>
+                </tr>
+                <tr class="tr">
+                  <td class="title1">
+                    <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                  </td>
+                  <td class="title">
+                    <strong>October 9,2019</strong><br>
+                  </td>
+                  <td class="title">
+                    <strong>My Entire life</strong>
+                  </td>
+                  <td class="description">
+                    in my life when i was child i was highly affected by ambitions.
+                  </td>
+                  <td class="del">
+                    <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <td class="title1">
+                    <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                  </td>
+                  <td class="title">
+                    <strong>October 9,2019</strong><br>
+                  </td>
+                  <td class="title">
+                    <strong>My Entire life</strong>
+                  </td>
+                  <td class="description">
+                    in my life when i was child i was highly affected by ambitions.
+                  </td>
+                  <td class="del">
+                    <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <td class="title1">
+                    <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                  </td>
+                  <td class="title">
+                    <strong>October 9,2019</strong><br>
+                  </td>
+                  <td class="title">
+                    <strong>My Entire life</strong>
+                  </td>
+                  <td class="description">
+                    in my life when i was child i was highly affected by ambitions.
+                  </td>
+                  <td class="del">
+                    <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                  </td>
+                </tr>
+                <tr class="tr">
+                 <td class="title1">
+                  <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                </td>
+                <td class="title">
+                  <strong>October 9,2019</strong><br>
+                </td>
+                <td class="title">
+                  <strong>My Entire life</strong>
+                </td>
+                <td class="description">
+                  in my life when i was child i was highly affected by ambitions.
+                </td>
+                <td class="del">
+                    <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                  </td>
+                </tr>
+                <tr class="tr">
+                  <td class="title1">
+                    <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                  </td>
+                  <td class="title">
+                    <strong>October 9,2019</strong><br>
+                  </td>
+                  <td class="title">
+                    <strong>My Entire life</strong>
+                  </td>
+                  <td class="description">
+                    in my life when i was child i was highly affected by ambitions.
+                  </td>
+                  <td class="del">
+                    <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                  </td>
+                </tr>
+                <tr class="tr">
+                    <td class="title1">
+                      <a href="home.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                    </td>
+                    <td class="title">
+                      <strong>October 9,2019</strong><br>
+                    </td>
+                    <td class="title">
+                      <strong>My Entire life</strong>
+                    </td>
+                    <td class="description">
+                      in my life when i was child i was highly affected by ambitions.
+                    </td>
+                    <td class="del">
+                      <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                    </td>
+                  </tr>
+                  <tr class="tr hide">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                      <td class="title">
+                        <strong>October 9,2019</strong><br>
+                      </td>
+                      <td class="title">
+                        <strong>My Entire life</strong>
+                      </td>
+                      <td class="description">
+                          in my life when i was child i was highly affected by ambitions.
+                      </td>
+                      <td class="del">
+                        <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                      </td>
+                    </tr>
+                    <tr class="tr hide">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                        <td class="title">
+                          <strong>October 9,2019</strong><br>
+                        </td>
+                        <td class="title">
+                          <strong>My Entire life</strong>
+                        </td>
+                        <td class="description">
+                            in my life when i was child i was highly affected by ambitions.
+                        </td>
+                        <td class="del">
+                          <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                        </td>
+                    </tr>
+                    <tr class="tr hide">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                      <td class="title">
+                        <strong>October 9,2019</strong><br>
+                      </td>
+                      <td class="title">
+                        <strong>My Entire life</strong>
+                      </td>
+                      <td class="description">
+                        in my life when i was child i was highly affected by ambitions.
+                      </td>
+                      <td class="del">
+                        <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                      </td>
+                    </tr>
+                    <tr class="tr">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                      <td class="title">
+                        <strong>October 9,2019</strong><br>
+                      </td>
+                      <td class="title">
+                        <strong>My Entire life</strong>
+                      </td>
+                      <td class="description">
+                        in my life when i was child i was highly affected by ambitions.
+                      </td>
+                      <td class="del">
+                        <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                      </td>
+                    </tr>
+                    <tr class="tr">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                      <td class="title">
+                        <strong>October 9,2019</strong><br>
+                      </td>
+                      <td class="title">
+                        <strong>My Entire life</strong>
+                      </td>
+                      <td class="description">
+                        in my life when i was child i was highly affected by ambitions.
+                      </td>
+                      <td class="del">
+                        <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                      </td>
+                    </tr>
+                    <tr class="tr">
+                     <td class="title1">
+                      <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                    </td>
+                    <td class="title">
+                      <strong>October 9,2019</strong><br>
+                    </td>
+                    <td class="title">
+                      <strong>My Entire life</strong>
+                    </td>
+                    <td class="description">
+                      in my life when i was child i was highly affected by ambitions.
+                    </td>
+                    <td class="del">
+                      <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                    </td>
+                    </tr>
+                    <tr class="tr">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                      <td class="title">
+                        <strong>October 9,2019</strong><br>
+                      </td>
+                      <td class="title">
+                        <strong>My Entire life</strong>
+                      </td>
+                      <td class="description">
+                        in my life when i was child i was highly affected by ambitions.
+                      </td>
+                      <td class="del">
+                        <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                      </td>
+                    </tr>
+                    <tr class="tr">
+                      <td class="title1">
+                        <a href="content.html"><button style="border-radius:7px;border: 1px; ">Open</button></a>
+                      </td>
+                      <td class="title">
+                        <strong>October 9,2019</strong><br>
+                      </td>
+                      <td class="title">
+                        <strong>My Entire life</strong>
+                      </td>
+                      <td class="description">
+                        in my life when i was child i was highly affected by ambitions.
+                      </td>
+                      <td class="del">
+                        <img src="../assets/images/icons/draft.png" alt="" class="icon-add" title="modify"><img src="../assets/images/icons/del.png" alt="" class="icon-add" title="delete">
+                      </td>
+                    </tr>
+                    
+          </tbody>
+          
+        </table>
+      </div>
+     
+
+  </div> 
+  <script type="text/javascript" src="../js/preloader.js"></script>
+  <script type="text/javascript" src="../js/control.js"></script>
+</body>
+</html>
